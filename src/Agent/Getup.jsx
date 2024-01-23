@@ -176,13 +176,13 @@ export default function GetUp() {
             >
               Get Up 
             </Button>
-            {/* <Grid container justifyContent="flex-end">
+            <Grid container justifyContent="flex-end">
               <Grid item>
                 <Link href="/" variant="body2">
                   Already have an account? SignIn
                 </Link>
               </Grid>
-            </Grid> */}
+            </Grid>
           </Box>
         </Box>
         {/* <Copyright sx={{ mt: 5 }} /> */}
