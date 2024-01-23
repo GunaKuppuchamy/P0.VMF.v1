@@ -2,7 +2,7 @@ import { AppBar, Box, Button, Tab, Tabs, Toolbar, Typography } from '@mui/materi
 import React from 'react'
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import { Navigate, useNavigate,Outlet } from 'react-router-dom';
-import Ahome from './AHome';
+// import Ahome from './AHome';
 
 
 const FNavbar = () => {
