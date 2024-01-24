@@ -229,7 +229,7 @@ export default function SignInSide() {
               >
                 Get In
               </Button>
-              <Grid container>
+              {/* <Grid container>
                 <Grid item xs>
                   <Link href="/GetUp" variant="body2">
                     
@@ -241,7 +241,7 @@ export default function SignInSide() {
                   </Link>
                   
                 </Grid>
-              </Grid>
+              </Grid> */}
               {/* <Copyright sx={{ mt: 5 }} /> */}
             </Box>
           </Box>
