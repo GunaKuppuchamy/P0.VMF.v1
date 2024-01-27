@@ -49,15 +49,18 @@ export default function GetUp() {
     <ThemeProvider theme={defaultTheme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
+       
         <Box
-         sx={{
-          my: 2,
-          mx: 4,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          marginBottom:'0'
-        }}>
+          sx={{
+            // marginTop: 8,
+            my: 0,
+              mx: 2,
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+          }}
+        >
+        
         <Typography
             variant="h6"
             noWrap
@@ -75,17 +78,6 @@ export default function GetUp() {
           ><LocalShippingIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1}} />
             VMF
           </Typography>
-        </Box>
-        <Box
-          sx={{
-            // marginTop: 8,
-            my: 0,
-              mx: 4,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-          }}
-        >
           <Avatar sx={{ m: 1, color:'black' }}>
             <LockOutlinedIcon />
           </Avatar>
@@ -117,24 +109,24 @@ export default function GetUp() {
             </Box>
           <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
             <Grid container spacing={2}>
-              <Grid item xs={12} sm={6}>
+              <Grid item xs={12}>
                 <TextField
                   autoComplete="given-name"
                   name="firstName"
                   required
                   fullWidth
                   id="firstName"
-                  label="First Name"
+                  label="Name"
                   autoFocus
                 />
               </Grid>
-              <Grid item xs={12} sm={6}>
+              <Grid item xs={12} >
                 <TextField
                   required
                   fullWidth
                   id="lastName"
-                  label="Last Name"
-                  name="lastName"
+                  label="Phone Number"
+                  name="Phone Number"
                   autoComplete="family-name"
                 />
               </Grid>

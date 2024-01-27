@@ -8,7 +8,7 @@ import SignInSide from './Agent/Getin';
 // import SimpleBottomNavigation from './Agent/Bottom';
 // import LabelBottomNavigation from './Agent/Bottom';
 // import ReactVirtualizedTable from './Agent/AHome';
-// import BasicStack from './Agent/AHome';
+// import BasicStack from './Agent/AHome'; 
 // import VirtualizedList from './Agent/AHome';
 import FNavbar from './Agent/FNavbar';
 import App1 from './App1';
