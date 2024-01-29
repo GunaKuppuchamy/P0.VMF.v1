@@ -1,6 +1,6 @@
 import React from 'react'
 import ANavbar1 from './ANavbar1'
-import { Box, FormControl, FormGroup, Grid, Input, InputLabel, MenuItem, Paper, Select, TextField, Typography, styled } from '@mui/material'
+import { Box, Button, FormControl, FormGroup, Grid, Input, InputLabel, MenuItem, Paper, Select, TextField, Typography, styled } from '@mui/material'
 import { DatePicker, LocalizationProvider } from '@mui/x-date-pickers'
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 import dayjs from 'dayjs'
@@ -50,6 +50,9 @@ function Aupdate(){
 <Grid xs={4}><Box margin={2}></Box></Grid>
 <Grid xs={4}><Box margin={2}></Box></Grid>
 <Grid xs={4}><Box margin={2}><Typography>&#8377; Total</Typography><TextField sx={{display:'flex'}} required id="outlined-required"  placeholder='&#8377; Transport charge'/></Box></Grid>
+<Grid xs={4}><Box margin={2}></Box></Grid>
+<Grid xs={4}><Box margin={2}></Box></Grid>
+<Grid xs={4}><Box margin={2}><Button  type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>Update</Button></Box></Grid>
 
 
 </Grid>

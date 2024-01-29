@@ -49,7 +49,7 @@ export default function GetUp() {
     <ThemeProvider theme={defaultTheme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
-       
+       <Box>
         <Box
           sx={{
             // marginTop: 8,
@@ -63,15 +63,15 @@ export default function GetUp() {
         
         <Typography
             variant="h6"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
+            // noWrap
+            // component="a"
+            // href="#app-bar-with-responsive-menu"
             sx={{
-              mr: 2,
+              // mr: 2,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
               fontWeight: 700,
-              letterSpacing: '.0rem',
+              // letterSpacing: '.0rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
@@ -178,6 +178,7 @@ export default function GetUp() {
           </Box>
         </Box>
         {/* <Copyright sx={{ mt: 5 }} /> */}
+        </Box>
       </Container>
     </ThemeProvider>
   );
